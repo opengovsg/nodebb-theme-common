@@ -3,9 +3,9 @@
 	"categories": "Communities",
 	"subcategories": "Subcommunities",
 
-	"new_topic_button": "New Topic",
+	"new_topic_button": "New Post",
 	"guest-login-post": "Log in to post",
-	"no_topics": "<strong>There are no topics in this community.</strong><br />Why don't you try posting one?",
+	"no_topics": "<strong>There are no posts in this community.</strong><br />Why don't you try posting one?",
 
 	"browsing": "browsing",
 	"no_replies": "No one has replied",
@@ -16,9 +16,9 @@
 	"watching": "Watching",
 	"not-watching": "Not Watching",
 	"ignoring": "Ignoring",
-	"watching.description": "Show topics in unread and recent",
-	"not-watching.description": "Do not show topics in unread, show in recent",
-	"ignoring.description": "Do not show topics in unread and recent",
+	"watching.description": "Show posts in unread and recent",
+	"not-watching.description": "Do not show posts in unread, show in recent",
+	"ignoring.description": "Do not show posts in unread and recent",
 
 	"watching.message": "You are now watching updates from this community and all subcommunities",
 	"notwatching.message": "You are not watching updates from this community and all subcommunities",

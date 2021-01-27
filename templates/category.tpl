@@ -1,32 +1,7 @@
+<!-- IMPORT partials/category/header.tpl -->
+
 <div class="category row">
-	<div class="<!-- IF widgets.sidebar.length -->col-lg-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
-
-		<!-- IMPORT partials/breadcrumbs.tpl -->
-
-		<div class="subcategories row">
-			<!-- BEGIN children -->
-			<!-- IMPORT partials/category_child.tpl -->
-			<!-- END children -->
-		</div>
-
-		<div class="header category-tools clearfix">
-			<!-- IF privileges.topics:create -->
-			<button id="new_topic" class="btn btn-primary">[[category:new_topic_button]]</button>
-			<!-- ELSE -->
-				<!-- IF !loggedIn -->
-				<a href="{config.relative_path}/login" class="btn btn-primary">[[category:guest-login-post]]</a>
-				<!-- ENDIF !loggedIn -->
-			<!-- ENDIF privileges.topics:create -->
-
-			<span class="pull-right" component="category/controls">
-				<!-- IMPORT partials/category_watch.tpl -->
-
-				<!-- IMPORT partials/category_sort.tpl -->
-
-				<!-- IMPORT partials/category_tools.tpl -->
-			</span>
-		</div>
-
+	<div class="col-lg-8 col-md-9 col-sm-12">
 		<!-- IF !topics.length -->
 		<div class="alert alert-warning" id="category-no-topics">
 			[[category:no_topics]]
@@ -41,7 +16,8 @@
 	</div>
 
 	<!-- IF topics.length -->
-	<div data-widget-area="sidebar" class="col-md-3 col-xs-12 category-sidebar <!-- IF !widgets.sidebar.length -->hidden<!-- ENDIF !widgets.sidebar.length -->">
+	<div data-widget-area="sidebar" class="col-lg-4 col-md-3 col-xs-12 category-sidebar">
+		<!-- IMPORT widgets/category-sidebar.tpl -->
 		<!-- BEGIN widgets.sidebar -->
 		{{widgets.sidebar.html}}
 		<!-- END widgets.sidebar -->
