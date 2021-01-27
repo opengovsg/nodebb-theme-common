@@ -6,14 +6,13 @@
 	}
 
 	.category-stat {
-		text-align: center;
-
 		strong {
 			font-size: 25px;
 		}
 
 		small {
-			color: #aaa;
+			color: #888;
+			line-height: 20px;
 		}
 
 		&.replies {
@@ -209,3 +208,39 @@
 	}
 }
 
+
+//	category banner
+.category-banner {
+	margin-top: -20px;
+
+	.category-banner-background,
+	.category-banner-content {
+		height: 80px;
+		width: 100%;
+	}
+	.category-banner-content {
+		background-color: white;
+		margin-bottom: 1em;
+
+		.category-banner-image {
+			position: absolute;
+			background-color: #ddd;
+			height: 80px;
+			width: 80px;
+			background-size: cover;
+			background-position: center center;
+			border-radius: 40px;
+			border: 5px solid white;
+			top: -20px;
+		}
+
+		.name {
+			margin-left: 110px;
+			h2 {
+				margin-top: 7px;
+				margin-bottom: 0;
+				line-height: 30px;
+			}
+		}
+	}
+}

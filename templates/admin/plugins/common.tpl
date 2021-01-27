@@ -1,6 +1,6 @@
 <div class="col-lg-9">	
 	<div class="panel panel-default">
-		<div class="panel-heading">Lavender Theme Settings</div>
+		<div class="panel-heading">COMMON Theme Settings</div>
 		<div class="panel-body">
 			<form>
 				<label>Disable Masonry

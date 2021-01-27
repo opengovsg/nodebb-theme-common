@@ -63,7 +63,7 @@
 	"alert.follow": "You are now following %1!",
 
 	"users": "Users",
-	"topics": "Topics",
+	"topics": "Posts",
 	"posts": "Posts",
 	"x-posts": "%1 posts",
 	"best": "Best",
@@ -97,7 +97,7 @@
 	"last_edited_by": "last edited by %1",
 
 	"norecentposts": "No Recent Posts",
-	"norecenttopics": "No Recent Topics",
+	"norecenttopics": "No Recent Posts",
 	"recentposts": "Recent Posts",
 	"recentips": "Recently Logged In IPs",
 

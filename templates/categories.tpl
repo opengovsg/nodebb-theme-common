@@ -1,4 +1,12 @@
 <div class="row categories" itemscope itemtype="http://www.schema.org/ItemList">
+	<div class="col-lg-12">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 style="margin-bottom: 1em">[[category:categories]]</h1>
+			</div>
+		</div>
+	</div>
+
 	<div class="<!-- IF widgets.sidebar.length -->col-lg-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
 		<div class="row <!-- IF !disableMasonry -->masonry<!-- ENDIF !disableMasonry -->">
 			<!-- BEGIN categories -->
