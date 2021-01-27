@@ -1,6 +1,7 @@
 {
 	"id": "nodebb-theme-common",
 	"library": "./lib/theme.js",
+	"languages": "languages",
 	"hooks": [
 		{
 			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas", "callbacked": true
