@@ -15,14 +15,15 @@
 		<!-- ENDIF config.usePagination -->
 	</div>
 
-	<!-- IF topics.length -->
 	<div data-widget-area="sidebar" class="col-lg-4 col-md-3 col-xs-12 category-sidebar">
 		<!-- IMPORT widgets/category-sidebar.tpl -->
-		<!-- BEGIN widgets.sidebar -->
-		{{widgets.sidebar.html}}
-		<!-- END widgets.sidebar -->
+
+		<!-- IF topics.length -->
+			<!-- BEGIN widgets.sidebar -->
+			{{widgets.sidebar.html}}
+			<!-- END widgets.sidebar -->
+		<!-- ENDIF topics.length -->
 	</div>
-	<!-- ENDIF topics.length -->
 </div>
 
 <!-- IMPORT partials/move_thread_modal.tpl -->
