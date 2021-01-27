@@ -1,0 +1,27 @@
+{
+  "name": "nodebb-theme-common",
+  "version": "1.0.0",
+  "description": "common Theme for NodeBB",
+  "main": "theme.less",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NodeBB/nodebb-theme-common"
+  },
+  "keywords": [
+    "nodebb",
+    "common",
+    "theme",
+    "themes"
+  ],
+  "author": {
+    "name": "Aaron Lee",
+    "email": "aaron@open.gov.sg"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NodeBB/nodebb-theme-common/issues"
+  },
+  "nbbpm": {
+    "compatibility": "^1.14.2"
+  }
+}
