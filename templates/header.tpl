@@ -38,9 +38,9 @@
 <body class="{bodyClass}">
 	<div class="navbar navbar-default navbar-fixed-top header" role="navigation" id="header-menu" component="navbar">
 		<div class="loading-bar"></div>
-		<div class="container">
+		<header>
 			<!-- IMPORT partials/menu.tpl -->
-		</div>
+		</header>
 	</div>
 	<div class="container" id="content" component="content">
 	<!-- IMPORT partials/noscript/warning.tpl -->

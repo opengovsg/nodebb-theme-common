@@ -1,0 +1,23 @@
+#search-form {
+  input[name="term"] {
+    border-radius: 4px;
+    width: 100%;
+    background-color: #f6f7f8;
+    border-color: #edeff1;
+  }
+  
+  #search-fields.hidden {
+    max-width: 100% !important;
+  }
+
+  @media screen and (min-width: 768px) {
+    & {
+      width: 50%;
+
+      #search-fields,
+      .form-group {
+        width: 100%;
+      }
+    }
+  }
+}
