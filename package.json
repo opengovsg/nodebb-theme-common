@@ -1,8 +1,8 @@
 {
   "name": "nodebb-theme-common",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "common Theme for NodeBB",
-  "main": "theme.less",
+	"main": "./lib/theme.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/NodeBB/nodebb-theme-common"

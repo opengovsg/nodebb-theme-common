@@ -113,9 +113,10 @@
 			<ul component="header/usercontrol" id="user-control-list" class="dropdown-menu" aria-labelledby="user_dropdown">
 				<li>
 					<a component="header/profilelink" href="{relative_path}/user/{user.userslug}">
-						<i class="fa fa-fw fa-circle status {user.status}"></i> <span component="header/username">{user.username}</span>
+						<i class="fa fa-fw fa-user"></i> <span component="header/username">My Profile</span>
 					</a>
 				</li>
+				<!--
 				<li role="presentation" class="divider"></li>
 				<li>
 					<a href="#" class="user-status" data-status="online">
@@ -137,6 +138,7 @@
 						<i class="fa fa-fw fa-circle status offline"></i><span> [[global:invisible]]</span>
 					</a>
 				</li>
+				-->
 				<!-- IF showModMenu -->
 				<li role="presentation" class="divider"></li>
 				<li class="dropdown-header">[[pages:moderator-tools]]</li>
@@ -159,8 +161,14 @@
 				<!-- ENDIF isAdmin -->
 				<!-- ENDIF showModMenu -->
 				<li role="presentation" class="divider"></li>
-				<li component="user/logout">
-					<a href="#"><i class="fa fa-fw fa-sign-out"></i><span> [[global:logout]]</span></a>
+				<li>
+					<form method="post" action="{relative_path}/logout">
+						<input type="hidden" name="_csrf" value="{config.csrf_token}">
+						<input type="hidden" name="noscript" value="true">
+						<button type="submit" class="btn btn-logout">
+							<i class="fa fa-fw fa-sign-out"></i><span> [[global:logout]]</span>
+						</button>
+					</form>
 				</li>
 			</ul>
 		</li>

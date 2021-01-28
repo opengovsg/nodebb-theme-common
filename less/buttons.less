@@ -5,3 +5,27 @@
 .btn-round {
   border-radius: 30px;
 }
+
+.btn-logout {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: @navbar-default-link-hover-color;
+  white-space: nowrap;
+  width: 100%;
+  text-align: left;
+  background: transparent;
+
+  &:active, &:focus {
+    outline: none;
+    outline-offset: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: @brand-primary;
+  }
+}
