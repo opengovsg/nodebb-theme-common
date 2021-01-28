@@ -218,6 +218,11 @@
 		height: 100px;
 		width: 100%;
 		float: left;
+
+		@media screen and (min-width: 768px) {
+			margin-left: 8px;
+			width: calc(100% - 16px);
+		}
 	}
 	.category-banner-content {
 		background-color: white;
