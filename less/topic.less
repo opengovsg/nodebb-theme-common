@@ -205,3 +205,33 @@
 		.animation(topic-reply-pulse 2s ease-in infinite);
 	}
 }
+
+.topic-preview {
+	max-height: 150px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	overflow: hidden;
+
+	img {
+		margin: 0 auto;
+		max-height: 120px;
+	}
+
+	&.topic-preview-pinned {
+		max-height: 350px;
+
+		img {
+			margin: 0 auto;
+			max-height: 320px;
+		}
+	}
+}
+.topic-preview-gradient {
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	// background-image: linear-gradient(rgba(0,0,0,0), rgba(180,180,180, 0.4));
+}

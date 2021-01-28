@@ -3,7 +3,7 @@
 	<div class="col-xs-12 category-banner-content">
 		<div
 			class="category-banner-image"
-			style="background-image: url(http://18.138.246.9/assets/uploads/category/category-2.png)"
+			style="background-image: url(<!-- IF ../backgroundImage -->{../backgroundImage}<!-- ENDIF -->);"
 			>
 		</div>
 		<div class="name">

@@ -17,6 +17,9 @@
 		},
 		{
 			"hook": "filter:config.get", "method": "getConfig"
+		},
+		{
+			"hook": "filter:category.get", "method": "addPreviewToCategory"
 		}
 	],
 	"staticDirs": {

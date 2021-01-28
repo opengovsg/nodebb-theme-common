@@ -31,6 +31,10 @@
 									</small>
 								</p>
 							</div>
+							<div class="topic-preview<!-- IF topics.pinned --> topic-preview-pinned<!-- ENDIF topics.pinned -->">
+								{../preview.content}
+							</div>
+							<div class="topic-preview-gradient"></div>
 						</div>
 					</div>
 					<div class="row">
