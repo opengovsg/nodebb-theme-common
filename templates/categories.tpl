@@ -2,7 +2,7 @@
 	<div class="col-lg-12">
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 style="margin-bottom: 1em">[[category:categories]]</h1>
+				<h1 style="margin-bottom: 1em">[[pages:categories]]</h1>
 			</div>
 		</div>
 	</div>
