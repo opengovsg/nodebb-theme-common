@@ -1,5 +1,7 @@
 {
-	"recent": "Feed",
+	"recent": "Latest Feed",
+	"popular": "Popular",
+	"top": "Top Feed",
 	"categories": "Communities",
   "account/watched_categories": "%1's Watched Communities"
 }
