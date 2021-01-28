@@ -1,25 +1,3 @@
-<div class="panel panel-default">
-  <div class="panel-body">
-		<!-- IF canPost -->
-		<button
-			component="category/post"
-			id="new_topic"
-			class="btn btn-primary btn-full-width btn-round"
-			>
-			[[category:new_topic_button]]
-		</button>
-		<!-- ELSE -->
-		<a
-			component="category/post/guest"
-			href="{config.relative_path}/login"
-			class="btn btn-primary btn-full-width btn-round"
-			>
-			[[category:guest-login-post]]
-		</a>
-		<!-- ENDIF canPost -->
-	</div>
-</div>
-
 <div class="panel panel-info">
 	<div class="panel-heading"><b>[[unread:all_categories]]</b></div>
   <div class="panel-body">

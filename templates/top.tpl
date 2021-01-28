@@ -1,10 +1,10 @@
-<div class="recent">
+<div class="top">
 	<div class="row">
 		<div class="col-lg-12">
 			<div class="row">
 				<div class="col-lg-12">
 					<h1 style="margin-bottom: 1em">
-						[[pages:recent]]
+						[[pages:top]]
 					</h1>
 				</div>
 			</div>
@@ -17,7 +17,7 @@
 
 	<!-- IF !topics.length -->
 	<div class="alert alert-warning" id="category-no-topics">
-		<strong>[[recent:no_recent_topics]]</strong>
+		<strong>[[top:no_top_topics]]</strong>
 	</div>
 	<!-- ENDIF !topics.length -->
 
