@@ -1,6 +1,6 @@
 {
 	"id": "nodebb-theme-common",
-	"library": "./lib/theme.js",
+	"main": "./lib/theme.js",
 	"languages": "languages",
 	"hooks": [
 		{
