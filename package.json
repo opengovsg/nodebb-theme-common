@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-common",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "common Theme for NodeBB",
   "main": "theme.less",
   "repository": {
@@ -22,6 +22,6 @@
     "url": "https://github.com/NodeBB/nodebb-theme-common/issues"
   },
   "nbbpm": {
-    "compatibility": "^1.14.2"
+    "compatibility": "^1.16.1"
   }
 }
