@@ -19,7 +19,10 @@
 			"hook": "filter:config.get", "method": "getConfig"
 		},
 		{
-			"hook": "filter:category.get", "method": "addPreviewToCategory"
+			"hook": "filter:category.get", "method": "hookCategoryAddPreview"
+		},
+		{
+			"hook": "filter:topics.get", "method": "hookTopicsAddPreview"
 		}
 	],
 	"staticDirs": {
