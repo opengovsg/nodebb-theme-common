@@ -2,11 +2,18 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">COMMON Theme Settings</div>
 		<div class="panel-body">
-			<form>
-				<label>Disable Masonry
-					<input id="disableMasonry" type="checkbox" data-field="disableMasonry" />
-				</label>
-				
+			<form class="row">
+				<div class="col-xs-12">
+					<label>Disable Masonry
+						<input id="disableMasonry" type="checkbox" data-field="disableMasonry" />
+					</label>
+				</div>
+				<div class="col-xs-12">
+					<label>Banner Message
+						<input id="bannerMessage" type="text" data-field="bannerMessage" style="width: 100%" />
+						<p><small>Leave blank to disable banner</small></p>
+					</label>
+				</div>
 			</form>
 		</div>
 	</div>

@@ -35,10 +35,11 @@
 
 </head>
 
-<body class="{bodyClass}">
-	<div class="navbar navbar-default navbar-fixed-top header" role="navigation" id="header-menu" component="navbar">
+<body class="{bodyClass} <!-- IF config.bannerMessage -->banner-visible<!-- ENDIF config.bannerMessage -->">
+	<div class="navbar navbar-default navbar-fixed-top header" role="navigation" component="navbar">
 		<div class="loading-bar"></div>
-		<header>
+		<!-- IMPORT partials/banner.tpl -->
+		<header id="header-menu">
 			<!-- IMPORT partials/menu.tpl -->
 		</header>
 	</div>
