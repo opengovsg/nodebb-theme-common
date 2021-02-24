@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-common",
-  "version": "1.0.9",
+  "version": "1.1.3",
   "description": "common Theme for NodeBB",
 	"main": "./lib/theme.js",
   "repository": {
